@@ -23,6 +23,11 @@
             }
         }
 
+        public Numero getHead()
+        {
+            return this.head;
+        }
+
         public Numero Pop()
         {
             if (!IsEmpty())

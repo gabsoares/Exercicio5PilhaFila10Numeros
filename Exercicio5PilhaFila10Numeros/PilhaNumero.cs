@@ -21,6 +21,11 @@
                 topo = aux;
             }
         }
+
+        public Numero getTopo()
+        {
+            return this.topo;
+        }
         public Numero Pop()
         {
             if (!IsEmpty())
